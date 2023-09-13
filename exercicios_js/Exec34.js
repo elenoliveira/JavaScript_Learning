@@ -3,7 +3,7 @@ todos os caracteres (independentemente de ser maiúsculo ou minúsculo) estejam 
 
 let strings = (StrA, StrB) =>{
     console.log(StrA, StrB)
-    let StrA1 = [] , StrB1 = [] , StrC = [], StrA2 = [], StrB2 = []
+    let StrA1 = [], StrB1 = [], StrA2 = [], StrB2 = []
 
     for(let i = 0; i < StrA.length; i++){
         StrA1[StrA[i]] = StrA[i]
