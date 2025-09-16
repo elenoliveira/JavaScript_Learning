@@ -10,7 +10,7 @@ const getTurma = (letra, callback) => {
             resultado += dados
         })
         
-        res.on('end', dados => {
+        res.on('end', () => {
             callback(JSON.parse(resultado))
         })
     })
